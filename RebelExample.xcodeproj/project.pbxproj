@@ -13,7 +13,35 @@
 		3FDCC092171E7E37004E65B1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCC090171E7E37004E65B1 /* Credits.rtf */; };
 		3FDCC095171E7E37004E65B1 /* JTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCC094171E7E37004E65B1 /* JTAppDelegate.m */; };
 		3FDCC098171E7E37004E65B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDCC096171E7E37004E65B1 /* MainMenu.xib */; };
+		3FDCC0E2171E81CB004E65B1 /* Rebel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDCC0BA171E7EF7004E65B1 /* Rebel.framework */; };
+		3FDCC0F9171E8728004E65B1 /* JTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDCC0F8171E8728004E65B1 /* JTViewController.m */; };
+		3FEA374B171F82FA00B409E7 /* JTPopoverBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA374A171F82FA00B409E7 /* JTPopoverBackgroundView.m */; };
+		3FEA374F171F859800B409E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEA374E171F859800B409E7 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDCC0B9171E7EF7004E65B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDCC0A9171E7EF6004E65B1 /* Rebel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D09AE4DF15C5F45200ECAD10;
+			remoteInfo = Rebel;
+		};
+		3FDCC0BB171E7EF7004E65B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDCC0A9171E7EF6004E65B1 /* Rebel.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D09AE4F715C5F45300ECAD10;
+			remoteInfo = RebelTests;
+		};
+		3FDCC0C4171E7F04004E65B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDCC0A9171E7EF6004E65B1 /* Rebel.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D09AE4DE15C5F45200ECAD10;
+			remoteInfo = Rebel;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3FDCC07D171E7E37004E65B1 /* RebelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +57,13 @@
 		3FDCC093171E7E37004E65B1 /* JTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTAppDelegate.h; sourceTree = "<group>"; };
 		3FDCC094171E7E37004E65B1 /* JTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAppDelegate.m; sourceTree = "<group>"; };
 		3FDCC097171E7E37004E65B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3FDCC0A9171E7EF6004E65B1 /* Rebel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rebel.xcodeproj; path = ../Rebel/Rebel.xcodeproj; sourceTree = "<group>"; };
+		3FDCC0F7171E8728004E65B1 /* JTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTViewController.h; sourceTree = "<group>"; };
+		3FDCC0F8171E8728004E65B1 /* JTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTViewController.m; sourceTree = "<group>"; };
+		3FEA3749171F82FA00B409E7 /* JTPopoverBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPopoverBackgroundView.h; sourceTree = "<group>"; };
+		3FEA374A171F82FA00B409E7 /* JTPopoverBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPopoverBackgroundView.m; sourceTree = "<group>"; };
+		3FEA374C171F84F500B409E7 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		3FEA374E171F859800B409E7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEA374F171F859800B409E7 /* QuartzCore.framework in Frameworks */,
+				3FDCC0E2171E81CB004E65B1 /* Rebel.framework in Frameworks */,
 				3FDCC082171E7E37004E65B1 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +83,8 @@
 		3FDCC072171E7E37004E65B1 = {
 			isa = PBXGroup;
 			children = (
+				3FEA374E171F859800B409E7 /* QuartzCore.framework */,
+				3FEA374C171F84F500B409E7 /* Quartz.framework */,
 				3FDCC087171E7E37004E65B1 /* RebelExample */,
 				3FDCC080171E7E37004E65B1 /* Frameworks */,
 				3FDCC07E171E7E37004E65B1 /* Products */,
@@ -63,6 +102,7 @@
 		3FDCC080171E7E37004E65B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FDCC0A9171E7EF6004E65B1 /* Rebel.xcodeproj */,
 				3FDCC081171E7E37004E65B1 /* Cocoa.framework */,
 				3FDCC083171E7E37004E65B1 /* Other Frameworks */,
 			);
@@ -82,6 +122,7 @@
 		3FDCC087171E7E37004E65B1 /* RebelExample */ = {
 			isa = PBXGroup;
 			children = (
+				3FDCC0F6171E8710004E65B1 /* Custom Controller */,
 				3FDCC093171E7E37004E65B1 /* JTAppDelegate.h */,
 				3FDCC094171E7E37004E65B1 /* JTAppDelegate.m */,
 				3FDCC096171E7E37004E65B1 /* MainMenu.xib */,
@@ -102,6 +143,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3FDCC0AA171E7EF6004E65B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDCC0BA171E7EF7004E65B1 /* Rebel.framework */,
+				3FDCC0BC171E7EF7004E65B1 /* RebelTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDCC0F6171E8710004E65B1 /* Custom Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FEA3748171F82E000B409E7 /* Custom popover background view */,
+				3FDCC0F7171E8728004E65B1 /* JTViewController.h */,
+				3FDCC0F8171E8728004E65B1 /* JTViewController.m */,
+			);
+			name = "Custom Controller";
+			sourceTree = "<group>";
+		};
+		3FEA3748171F82E000B409E7 /* Custom popover background view */ = {
+			isa = PBXGroup;
+			children = (
+				3FEA3749171F82FA00B409E7 /* JTPopoverBackgroundView.h */,
+				3FEA374A171F82FA00B409E7 /* JTPopoverBackgroundView.m */,
+			);
+			name = "Custom popover background view";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +185,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				3FDCC0C5171E7F04004E65B1 /* PBXTargetDependency */,
 			);
 			name = RebelExample;
 			productName = RebelExample;
@@ -142,12 +212,35 @@
 			mainGroup = 3FDCC072171E7E37004E65B1;
 			productRefGroup = 3FDCC07E171E7E37004E65B1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3FDCC0AA171E7EF6004E65B1 /* Products */;
+					ProjectRef = 3FDCC0A9171E7EF6004E65B1 /* Rebel.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3FDCC07C171E7E37004E65B1 /* RebelExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3FDCC0BA171E7EF7004E65B1 /* Rebel.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Rebel.framework;
+			remoteRef = 3FDCC0B9171E7EF7004E65B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3FDCC0BC171E7EF7004E65B1 /* RebelTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RebelTests.octest;
+			remoteRef = 3FDCC0BB171E7EF7004E65B1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3FDCC07B171E7E37004E65B1 /* Resources */ = {
@@ -169,10 +262,20 @@
 			files = (
 				3FDCC08E171E7E37004E65B1 /* main.m in Sources */,
 				3FDCC095171E7E37004E65B1 /* JTAppDelegate.m in Sources */,
+				3FDCC0F9171E8728004E65B1 /* JTViewController.m in Sources */,
+				3FEA374B171F82FA00B409E7 /* JTPopoverBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDCC0C5171E7F04004E65B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Rebel;
+			targetProxy = 3FDCC0C4171E7F04004E65B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3FDCC08A171E7E37004E65B1 /* InfoPlist.strings */ = {
@@ -259,6 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RebelExample/RebelExample-Prefix.pch";
 				INFOPLIST_FILE = "RebelExample/RebelExample-Info.plist";
@@ -271,6 +378,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RebelExample/RebelExample-Prefix.pch";
 				INFOPLIST_FILE = "RebelExample/RebelExample-Info.plist";
@@ -298,6 +409,7 @@
 				3FDCC09D171E7E37004E65B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
